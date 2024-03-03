@@ -4,7 +4,7 @@ public class function{
     public static void printFactorial(int n){
         if(n<0){
             System.out.println("Invalid Number");
-            return;
+            return; // in middle loop we want to end then we are use return
         }
 
         int factorial=1;
