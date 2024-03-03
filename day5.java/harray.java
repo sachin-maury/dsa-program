@@ -5,7 +5,7 @@ public class harray {
       for(int i=0;i<numbers.length;i++){
          if(largest<numbers[i]){
             largest=numbers[i];
-            return largest;
+
          }
       }
       return largest;
