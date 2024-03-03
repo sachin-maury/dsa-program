@@ -1,17 +1,18 @@
 import java.util.Scanner;
 public class Arrays {
-    public static void getlargest(int values[]) {
+    public static void getLargest(int numbers[]) {
         int largest =Integer.MIN_VALUE;
-        for(int i=0; i<values.length; i++){
-            if(largest < values[i]){
-                largest=values[i];
+        for(int i=0; i<numbers.length; i++){
+            if(largest < numbers[i]){
+                largest=numbers[i];
+               
             }
-           
+            return largest;
         }
-         return largest;
+      
     }
     public static void main(String[] args) {
-        int values[]={1, 2, 6, 3, 5};
-        System.out.println("print largest values:" +getlargest(values[i] ));
+        int numbers[]={1, 2, 6, 3, 5};
+        System.out.println("print largest values:" + getLargest(numbers));
     }
 }
