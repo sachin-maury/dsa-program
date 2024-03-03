@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class function{
     public static void printFactorial(int n){
+        if(n<0){
+            System.out.println("Invalid Number");
+            return;
+        }
 
         int factorial=1;
 
@@ -9,6 +13,7 @@ public class function{
             factorial = factorial * i;
         }
         System.out.println(factorial);
+        return; //we are writing to loop is end here
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
