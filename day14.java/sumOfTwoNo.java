@@ -19,7 +19,7 @@ public class sumOfTwoNo {
 
         int sum =printNumber(a, b);
 
-        System.out.println(sum);
+        System.out.println("Sum of Two Numbers:" + sum);
 
     }
 }
