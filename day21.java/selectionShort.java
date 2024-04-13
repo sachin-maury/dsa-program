@@ -8,7 +8,7 @@ public class selectionShort {
     }
 
     public static void main(String[] args) {
-        
+        // selection short
         int arr[] = {7,8,3,1,2};
         for(int i=0; i<arr.length-1; i++){
             int smallest =i;
@@ -18,6 +18,7 @@ public class selectionShort {
                     smallest=j;
                 }
             }
+            // swaping
             int temp = arr[i];
             arr[i] =arr[smallest];
             arr[smallest] =temp;
