@@ -1,17 +1,12 @@
 
 
 public class ArrayDemo {
-   public static void main(String[] args){
-      
+   public static void main(String[] args){  
      
-      int intArray[];
-	  
-       
+      int intArray[];   
       intArray = new int[8];
-
       System.out.println("Array before adding data.");
-
-      
+ 
       display(intArray);     
          
       
