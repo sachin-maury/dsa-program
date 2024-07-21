@@ -31,7 +31,7 @@ public class Linkedlist {
     public static void main(String args[]){
         Linkedlist ll = new Linkedlist();
         ll.addFirst(1);
-        ll.addFirst(2);
+        ll.addFirst(2);                       
         System.out.println("hello");
         
     }
