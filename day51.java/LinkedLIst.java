@@ -23,6 +23,7 @@ public class LinkedLIst {
            // new node nex= head
            newNode.next = head;
            
+           
     }
 
     public static void main(String args[]){
