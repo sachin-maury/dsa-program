@@ -1,0 +1,34 @@
+import java.util.*;
+public class LinkedLIst {
+
+    public static class Node{
+        int data;
+        Node next;
+        public Node(int data){
+            this.data = data;
+            this.next = null;
+        }
+    }
+    public static Node head;
+    public static Node tail;
+
+
+    public void addFirst(int data){
+           // Craeate a new node
+           Node newNode = new Node(data);
+           if(head == null){
+             head = tail = newNode;
+             return;
+           }
+           // new node nex= head
+           newNode.next = head;
+           
+    }
+
+    public static void main(String args[]){
+        LinkedLIst ll = new LinkedLIst();
+        ll.addFirst(1);
+        ll.addFirst(2);
+        System.out.println("hello");
+    }
+}
